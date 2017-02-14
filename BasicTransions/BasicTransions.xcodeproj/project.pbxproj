@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D467921E5378A6009EDD59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467911E5378A6009EDD59 /* main.m */; };
+		10D467951E5378A6009EDD59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467941E5378A6009EDD59 /* AppDelegate.m */; };
+		10D4679D1E5378A6009EDD59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10D4679C1E5378A6009EDD59 /* Assets.xcassets */; };
+		10D467A01E5378A6009EDD59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D4679E1E5378A6009EDD59 /* LaunchScreen.storyboard */; };
+		10D467AE1E5378DC009EDD59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467A81E5378DC009EDD59 /* ViewController.m */; };
+		10D467AF1E5378DC009EDD59 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467AA1E5378DC009EDD59 /* UIViewController+Storyboard.m */; };
+		10D467B01E5378DC009EDD59 /* UIViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467AC1E5378DC009EDD59 /* UIViewController+Transition.m */; };
+		10D467B11E5378DC009EDD59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10D467AD1E5378DC009EDD59 /* Main.storyboard */; };
+		10D467BC1E5379BA009EDD59 /* NoneShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467B71E5379BA009EDD59 /* NoneShowViewController.m */; };
+		10D467BD1E5379BA009EDD59 /* NoneModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467B91E5379BA009EDD59 /* NoneModalViewController.m */; };
+		10D467BE1E5379BA009EDD59 /* NonePopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467BB1E5379BA009EDD59 /* NonePopoverViewController.m */; };
+		10D467C51E5379C5009EDD59 /* NaviShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467C01E5379C5009EDD59 /* NaviShowViewController.m */; };
+		10D467C61E5379C5009EDD59 /* NaviModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467C21E5379C5009EDD59 /* NaviModalViewController.m */; };
+		10D467C71E5379C5009EDD59 /* NaviPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467C41E5379C5009EDD59 /* NaviPopoverViewController.m */; };
+		10D467D21E5379D6009EDD59 /* TabShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467C91E5379D6009EDD59 /* TabShowViewController.m */; };
+		10D467D31E5379D6009EDD59 /* TabModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467CB1E5379D6009EDD59 /* TabModalViewController.m */; };
+		10D467D41E5379D6009EDD59 /* TabPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467CD1E5379D6009EDD59 /* TabPopoverViewController.m */; };
+		10D467D51E5379D6009EDD59 /* CTabShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467CF1E5379D6009EDD59 /* CTabShowViewController.m */; };
+		10D467D61E5379D6009EDD59 /* CTabShowSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D467D11E5379D6009EDD59 /* CTabShowSecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10D4678D1E5378A6009EDD59 /* BasicTransions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicTransions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D467911E5378A6009EDD59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10D467931E5378A6009EDD59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10D467941E5378A6009EDD59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10D4679C1E5378A6009EDD59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10D4679F1E5378A6009EDD59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10D467A11E5378A6009EDD59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D467A71E5378DC009EDD59 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10D467A81E5378DC009EDD59 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10D467A91E5378DC009EDD59 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		10D467AA1E5378DC009EDD59 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		10D467AB1E5378DC009EDD59 /* UIViewController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Transition.h"; sourceTree = "<group>"; };
+		10D467AC1E5378DC009EDD59 /* UIViewController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Transition.m"; sourceTree = "<group>"; };
+		10D467AD1E5378DC009EDD59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		10D467B61E5379BA009EDD59 /* NoneShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneShowViewController.h; sourceTree = "<group>"; };
+		10D467B71E5379BA009EDD59 /* NoneShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneShowViewController.m; sourceTree = "<group>"; };
+		10D467B81E5379BA009EDD59 /* NoneModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneModalViewController.h; sourceTree = "<group>"; };
+		10D467B91E5379BA009EDD59 /* NoneModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneModalViewController.m; sourceTree = "<group>"; };
+		10D467BA1E5379BA009EDD59 /* NonePopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonePopoverViewController.h; sourceTree = "<group>"; };
+		10D467BB1E5379BA009EDD59 /* NonePopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonePopoverViewController.m; sourceTree = "<group>"; };
+		10D467BF1E5379C5009EDD59 /* NaviShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviShowViewController.h; sourceTree = "<group>"; };
+		10D467C01E5379C5009EDD59 /* NaviShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviShowViewController.m; sourceTree = "<group>"; };
+		10D467C11E5379C5009EDD59 /* NaviModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviModalViewController.h; sourceTree = "<group>"; };
+		10D467C21E5379C5009EDD59 /* NaviModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviModalViewController.m; sourceTree = "<group>"; };
+		10D467C31E5379C5009EDD59 /* NaviPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviPopoverViewController.h; sourceTree = "<group>"; };
+		10D467C41E5379C5009EDD59 /* NaviPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviPopoverViewController.m; sourceTree = "<group>"; };
+		10D467C81E5379D6009EDD59 /* TabShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabShowViewController.h; sourceTree = "<group>"; };
+		10D467C91E5379D6009EDD59 /* TabShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabShowViewController.m; sourceTree = "<group>"; };
+		10D467CA1E5379D6009EDD59 /* TabModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabModalViewController.h; sourceTree = "<group>"; };
+		10D467CB1E5379D6009EDD59 /* TabModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabModalViewController.m; sourceTree = "<group>"; };
+		10D467CC1E5379D6009EDD59 /* TabPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabPopoverViewController.h; sourceTree = "<group>"; };
+		10D467CD1E5379D6009EDD59 /* TabPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabPopoverViewController.m; sourceTree = "<group>"; };
+		10D467CE1E5379D6009EDD59 /* CTabShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTabShowViewController.h; sourceTree = "<group>"; };
+		10D467CF1E5379D6009EDD59 /* CTabShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTabShowViewController.m; sourceTree = "<group>"; };
+		10D467D01E5379D6009EDD59 /* CTabShowSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTabShowSecondViewController.h; sourceTree = "<group>"; };
+		10D467D11E5379D6009EDD59 /* CTabShowSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTabShowSecondViewController.m; sourceTree = "<group>"; };
+		10D467D71E5379DE009EDD59 /* ViewControllerInstanceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerInstanceProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10D4678A1E5378A6009EDD59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D467841E5378A6009EDD59 = {
+			isa = PBXGroup;
+			children = (
+				10D4678F1E5378A6009EDD59 /* BasicTransions */,
+				10D4678E1E5378A6009EDD59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10D4678E1E5378A6009EDD59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10D4678D1E5378A6009EDD59 /* BasicTransions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10D4678F1E5378A6009EDD59 /* BasicTransions */ = {
+			isa = PBXGroup;
+			children = (
+				10D467931E5378A6009EDD59 /* AppDelegate.h */,
+				10D467941E5378A6009EDD59 /* AppDelegate.m */,
+				10D467A71E5378DC009EDD59 /* ViewController.h */,
+				10D467A81E5378DC009EDD59 /* ViewController.m */,
+				10D467B21E537990009EDD59 /* ViewControllers */,
+				10D467A91E5378DC009EDD59 /* UIViewController+Storyboard.h */,
+				10D467AA1E5378DC009EDD59 /* UIViewController+Storyboard.m */,
+				10D467AB1E5378DC009EDD59 /* UIViewController+Transition.h */,
+				10D467AC1E5378DC009EDD59 /* UIViewController+Transition.m */,
+				10D467AD1E5378DC009EDD59 /* Main.storyboard */,
+				10D4679C1E5378A6009EDD59 /* Assets.xcassets */,
+				10D4679E1E5378A6009EDD59 /* LaunchScreen.storyboard */,
+				10D467A11E5378A6009EDD59 /* Info.plist */,
+				10D467901E5378A6009EDD59 /* Supporting Files */,
+			);
+			path = BasicTransions;
+			sourceTree = "<group>";
+		};
+		10D467901E5378A6009EDD59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10D467911E5378A6009EDD59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D467B21E537990009EDD59 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10D467D71E5379DE009EDD59 /* ViewControllerInstanceProtocol.h */,
+				10D467B31E537997009EDD59 /* None */,
+				10D467B51E5379A3009EDD59 /* Tab */,
+				10D467B41E53799B009EDD59 /* Navi */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		10D467B31E537997009EDD59 /* None */ = {
+			isa = PBXGroup;
+			children = (
+				10D467B61E5379BA009EDD59 /* NoneShowViewController.h */,
+				10D467B71E5379BA009EDD59 /* NoneShowViewController.m */,
+				10D467B81E5379BA009EDD59 /* NoneModalViewController.h */,
+				10D467B91E5379BA009EDD59 /* NoneModalViewController.m */,
+				10D467BA1E5379BA009EDD59 /* NonePopoverViewController.h */,
+				10D467BB1E5379BA009EDD59 /* NonePopoverViewController.m */,
+			);
+			name = None;
+			sourceTree = "<group>";
+		};
+		10D467B41E53799B009EDD59 /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				10D467BF1E5379C5009EDD59 /* NaviShowViewController.h */,
+				10D467C01E5379C5009EDD59 /* NaviShowViewController.m */,
+				10D467C11E5379C5009EDD59 /* NaviModalViewController.h */,
+				10D467C21E5379C5009EDD59 /* NaviModalViewController.m */,
+				10D467C31E5379C5009EDD59 /* NaviPopoverViewController.h */,
+				10D467C41E5379C5009EDD59 /* NaviPopoverViewController.m */,
+			);
+			name = Navi;
+			sourceTree = "<group>";
+		};
+		10D467B51E5379A3009EDD59 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				10D467C81E5379D6009EDD59 /* TabShowViewController.h */,
+				10D467C91E5379D6009EDD59 /* TabShowViewController.m */,
+				10D467CA1E5379D6009EDD59 /* TabModalViewController.h */,
+				10D467CB1E5379D6009EDD59 /* TabModalViewController.m */,
+				10D467CC1E5379D6009EDD59 /* TabPopoverViewController.h */,
+				10D467CD1E5379D6009EDD59 /* TabPopoverViewController.m */,
+				10D467CE1E5379D6009EDD59 /* CTabShowViewController.h */,
+				10D467CF1E5379D6009EDD59 /* CTabShowViewController.m */,
+				10D467D01E5379D6009EDD59 /* CTabShowSecondViewController.h */,
+				10D467D11E5379D6009EDD59 /* CTabShowSecondViewController.m */,
+			);
+			name = Tab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10D4678C1E5378A6009EDD59 /* BasicTransions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10D467A41E5378A6009EDD59 /* Build configuration list for PBXNativeTarget "BasicTransions" */;
+			buildPhases = (
+				10D467891E5378A6009EDD59 /* Sources */,
+				10D4678A1E5378A6009EDD59 /* Frameworks */,
+				10D4678B1E5378A6009EDD59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicTransions;
+			productName = BasicTransions;
+			productReference = 10D4678D1E5378A6009EDD59 /* BasicTransions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10D467851E5378A6009EDD59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = basictransitions;
+				TargetAttributes = {
+					10D4678C1E5378A6009EDD59 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M9DDQZ5T2V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 10D467881E5378A6009EDD59 /* Build configuration list for PBXProject "BasicTransions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10D467841E5378A6009EDD59;
+			productRefGroup = 10D4678E1E5378A6009EDD59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10D4678C1E5378A6009EDD59 /* BasicTransions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D4678B1E5378A6009EDD59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D467B11E5378DC009EDD59 /* Main.storyboard in Resources */,
+				10D467A01E5378A6009EDD59 /* LaunchScreen.storyboard in Resources */,
+				10D4679D1E5378A6009EDD59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10D467891E5378A6009EDD59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D467BE1E5379BA009EDD59 /* NonePopoverViewController.m in Sources */,
+				10D467AE1E5378DC009EDD59 /* ViewController.m in Sources */,
+				10D467C61E5379C5009EDD59 /* NaviModalViewController.m in Sources */,
+				10D467B01E5378DC009EDD59 /* UIViewController+Transition.m in Sources */,
+				10D467BD1E5379BA009EDD59 /* NoneModalViewController.m in Sources */,
+				10D467D31E5379D6009EDD59 /* TabModalViewController.m in Sources */,
+				10D467D21E5379D6009EDD59 /* TabShowViewController.m in Sources */,
+				10D467C71E5379C5009EDD59 /* NaviPopoverViewController.m in Sources */,
+				10D467C51E5379C5009EDD59 /* NaviShowViewController.m in Sources */,
+				10D467AF1E5378DC009EDD59 /* UIViewController+Storyboard.m in Sources */,
+				10D467951E5378A6009EDD59 /* AppDelegate.m in Sources */,
+				10D467921E5378A6009EDD59 /* main.m in Sources */,
+				10D467D51E5379D6009EDD59 /* CTabShowViewController.m in Sources */,
+				10D467D41E5379D6009EDD59 /* TabPopoverViewController.m in Sources */,
+				10D467BC1E5379BA009EDD59 /* NoneShowViewController.m in Sources */,
+				10D467D61E5379D6009EDD59 /* CTabShowSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10D4679E1E5378A6009EDD59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10D4679F1E5378A6009EDD59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10D467A21E5378A6009EDD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10D467A31E5378A6009EDD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10D467A51E5378A6009EDD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9DDQZ5T2V;
+				INFOPLIST_FILE = BasicTransions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basictransitions.BasicTransions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10D467A61E5378A6009EDD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M9DDQZ5T2V;
+				INFOPLIST_FILE = BasicTransions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.basictransitions.BasicTransions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10D467881E5378A6009EDD59 /* Build configuration list for PBXProject "BasicTransions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D467A21E5378A6009EDD59 /* Debug */,
+				10D467A31E5378A6009EDD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10D467A41E5378A6009EDD59 /* Build configuration list for PBXNativeTarget "BasicTransions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D467A51E5378A6009EDD59 /* Debug */,
+				10D467A61E5378A6009EDD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10D467851E5378A6009EDD59 /* Project object */;
+}
